@@ -9,23 +9,25 @@ body{
     box-sizing: border-box;
 }
 
-.main {
+.container {
     background: hsl(212, 45%, 89%);
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
-.container {   
+.qrcard {   
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 20px; 
     background: hsl(0, 0%, 100%);
     width: 215px;
-    height: 340px;
+    min-height: 47vh;
     text-align: center;   
 }
-.container img {border-radius: 10px;}
-.container h1 {font-size: 16px; padding: 0px 10px;}
-.container p { margin:0; font-size: 11px; color: hsl(212deg 17% 76%);}
+.qrcard img {border-radius: 10px;}
+.qrcard h1 {font-size: 1rem; padding: 0px 10px; margin-bottom: 15px;}
+.qrcard p {margin:0; font-size: 0.688rem; color: hsl(212deg 17% 76%);}
+
+footer {font-size:x-small; margin:0px 0px 0px 11px;}
