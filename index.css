@@ -20,14 +20,12 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    padding-bottom: 30px;
     border-radius: 20px; 
     background: hsl(0, 0%, 100%);
     width: 215px;
-    min-height: 47vh;
     text-align: center;   
 }
 .qrcard img {border-radius: 10px;}
-.qrcard h1 {font-size: 1rem; padding: 0px 10px; margin-bottom: 15px;}
-.qrcard p {margin:0; font-size: 0.688rem; color: hsl(212deg 17% 76%);}
-
-footer {font-size:x-small; margin:0px 0px 0px 11px;}
+.qrcard h1 {font-size: 1rem; padding: 0px 10px; margin-bottom: 15px; color: hsl(218, 44%, 22%)}
+.qrcard p {margin:0; font-size: 0.688rem; color: hsl(220, 15%, 55%);}
